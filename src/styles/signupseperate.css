@@ -1,7 +1,7 @@
 .right{
     margin:30px auto 30px auto;
  }
- .fname, .lname, input[type="text"], input[type="password"]{
+ .fname, .lname, .frm{
     border-radius: 10px;
     border: 1px solid #968d8d;
     margin: 5px;
@@ -11,7 +11,7 @@
  .fname, .lname{
     width: 43%;
  }
- input[type="text"], input[type="password"]{
+ .frm{
     width: 88%;
  }
  .one, .two, .three{
@@ -30,7 +30,7 @@
     padding-left: 15px;
  }
  input, label{font-size: 18px;}
- button[type="submit"]{
+ .signupbtn{
     height: 35px;
     width: 50%;
     border: 2px solid #968d8d;

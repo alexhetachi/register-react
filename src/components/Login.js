@@ -49,14 +49,14 @@ class Login extends Component {
                     <p>Connect with the awesome world inside Jamia</p>
                     {/* <br/> */}
                     <p id="err">{this.state.msg}</p>
-                    <input name="email" type="text" placeholder="Email Address" onChange={this.onChange}/>
+                    <input name="email" type="text" class="frm" placeholder="Email Address" onChange={this.onChange}/>
                     <br/>
-                    <input name="password" type="password" placeholder="Password" onChange={this.onChange}/>
+                    <input name="password" type="password" class="frm" placeholder="Password" onChange={this.onChange}/>
                     
                     
                     
 
-                    <button type="submit">Log In</button>
+                    <button type="submit" class="loginbtn">Log In</button>
                     <br/>
                     <a class="loginuser" href="/">Not a User? Sign Up Instead</a>
 

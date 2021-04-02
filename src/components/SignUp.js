@@ -65,9 +65,9 @@ class SignUp extends Component {
                     <input name="fname" type="text" class="fname" placeholder="First Name" onChange={this.onChange}/>
                     <input name="lname" type="text" class="lname" placeholder="Last Name" onChange={this.onChange}/>
                     <br/>
-                    <input name="email" type="text" placeholder="Email Address" onChange={this.onChange}/>
+                    <input name="email" type="text" class="frm" placeholder="Email Address" onChange={this.onChange}/>
                     <br/>
-                    <input name="password" type="password" placeholder="Password" onChange={this.onChange}/>
+                    <input name="password" type="password" class="frm" placeholder="Password" onChange={this.onChange}/>
                     <br/>
                     <label class="one">Gender</label>
                     <div class="two">
@@ -108,7 +108,7 @@ class SignUp extends Component {
 
                     
 
-                    <button type="submit">Sign Up</button>
+                    <button type="submit" class="signupbtn">Sign Up</button>
                     <br/>
                     <a class="loginuser" href="/login">Already a User? Log In Instead</a>
 
